@@ -1,0 +1,2 @@
+select name, birthday_at, current_date, timestampdiff(year, birthday_at, current_date) as age from users;
+select avg(timestampdiff(year, birthday_at, current_date)) as average_age from users;
