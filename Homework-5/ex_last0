@@ -1,1 +1,0 @@
-select value from storehouses_products_clone order by value = 0, value;
